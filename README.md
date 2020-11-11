@@ -1,17 +1,15 @@
 # EXERCÍCIOS
- primeiro repositorio de exercicios em python
-#conversor de medidas
-medida = float(input('Digite a medida em metros: '))
-km = medida//1000
-hm = medida//100
-dam = medida//10
-dm = medida*10
-cm = medida*100
-mm = medida*1000
-print('Medida em metros: {}.'
-      '\nMedida em kilômetro: {:.0f}.'
-      '\nMedida em hectômetro: {:.0f}.'
-      '\nMedida em decâmetro: {:.0f}.'
-      '\nMedida em decímetros: {:.0f}'
-      '\nMedida em centímetros: {:.0f}.'
-      '\nMedida em milímetros: {:.0f}.'.format( medida,km, hm, dam, dm, cm, mm))
+ #tabuada
+ n = int(input('Digite qualquer numero para ver sua tabuada: '))
+print('-'*12)
+print('{} x {:2} = {}.'.format(n, 1, n*1))
+print('{} x {:2} = {}.'.format(n, 2, n*2))
+print('{} x {:2} = {}.'.format(n, 3, n*3))
+print('{} x {:2} = {}.'.format(n, 4, n*4))
+print('{} x {:2} = {}.'.format(n, 5, n*5))
+print('{} x {:2} = {}.'.format(n, 6, n*6))
+print('{} x {:2} = {}.'.format(n, 7, n*7))
+print('{} x {:2} = {}.'.format(n, 8, n*8))
+print('{} x {:2} = {}.'.format(n, 9, n*9))
+print('{} x {:2} = {}.'.format(n, 10, n*10))
+print('-'*12)
